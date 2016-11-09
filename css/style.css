@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*h1 {
+  	font: normal 170% 'century gothic', arial;
+  	margin: 0 0 15px 0;
+  	padding: 15px 0 15px 0;
+  	color: #136cb2;
+}*/
+
+a {
+  font: normal 100% 'trebuchet ms', sans-serif;
+  color: #136cb2;
+  /*text-decoration: none;*/
+}
+
+h2, h3 {
+  font-family: 'trebuchet ms', sans-serif;
+}
+
+p {
+	padding: 0 0 15px 15px;
+	line-height: 1.4em;
+}
+
+.page_header {
+  background-color: #F2F2F3;
+}
+
+.menu_header, .blog_section, .copyright, .main, .page_footer {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_navigation {
+  float: right;
+  margin: 25px 0 0 0;
+}
+
+ul.menu li {
+  list-style: none;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+ul.menu li a {
+  text-decoration: none;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.blog_section {
+  width: 600px;
+  float: left;
+}
+
+.main h1 {
+  font: bold 200% 'century gothic', arial;
+  text-align: center;
+  margin: 0 0 5px 0;
+  padding: 5px 0 10px 0;
+  color: #136cb2;
+  /*font-weight: bold;*/
+  /*font-size: 30pt;*/
+}
+
+.aside {
+  float: right;
+  width: 190px;
+  background-color: #F2F2F3;
+  border: solid 1px #f2f2f2;
+  border-radius: 5px;
+}
+
+.categories {
+  text-align: center;
+  margin: 10px 0 0 0;
+  color: #136cb2;
+}
+
+.aside ul {
+  margin: 15px;
+  list-style: none;
+}
+
+.aside li {
+  margin: 0 0 3px 0;
+}
+
+.aside a {
+  text-decoration: none;
+}
+
+.aside li span {
+  padding-left: 25px;
+  color: #646464;
+  font-weight: bold;
+}
+
+.articles {
+  background-color: #F2F2F3;
+  margin: 0 10px 15px 0;
+  /*padding: 0 10px 0 15px;*/
+  border: solid 1px #f2f2f2;
+  border-radius: 5px;
+}
+
+.articles header {
+  overflow: hidden;
+}
+
+.art_header {
+  float: left;
+  padding: 10px 0 15px 15px;
+}
+
+.art_header a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.art_header h3 {
+  color: #a8aa94;
+  font-weight: normal;
+  margin: 5px 0 0 5px;
+}
+
+.avatar {
+  float: right;
+  margin: 17px 15px 0 0;
+}
+
+.avatar img{
+  vertical-align: middle
+}
+
+.avatar a{
+  padding: 0 0 0 10px;
+}
+
+.articles ol {
+  padding: 0 0 15px 40px;
+}
+
+.articles li {
+  margin: 2px 0 0 0;
+}
+
+.articles .readmore {
+  background-color: #d2d3ca;
+  padding: 10px 0 10px 0;
+  border-radius: 0 0 5px 5px;
+  border: solid 1px #d2d3ca;
+   text-align: center;
+}
+
+.articles .readmore a {
+  text-decoration: none;
+}
+
+.page_footer {
+  background-color: #F2F2F3;
+  /*width: 100%;*/
+  padding: 10px 0 10px 0;
+}
+
+.page_footer span {
+  padding: 0 0 0 20px;
+}
