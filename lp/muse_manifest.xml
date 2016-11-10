@@ -1,0 +1,68 @@
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="about.com" resolutions="1x" timestamp="1478794874176">
+  <folder name="css">
+    <file name="site_global.css" crc="356359196"/>
+    <file name="index.css" crc="3918313142" ref="index"/>
+    <file name="iefonts_index.css" crc="3964158838" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="168988563" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="webpro.js" crc="3848665353" ref="index"/>
+    <file name="form_check.php" crc="158155501" ref="index"/>
+    <file name="form_throttle.php" crc="3992970984" ref="index"/>
+    <file name="form_process.php" crc="4078697226" ref="index"/>
+    <file name="form-u149.php" crc="4011360763" ref="index"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
+    <file name="touchswipe.js" crc="404375771" ref="index"/>
+    <file name="form-u1773.php" crc="327473397" ref="index"/>
+    <file name="form-u1691.php" crc="4194683206" ref="index"/>
+    <file name="form-u1724.php" crc="3980429793" ref="index"/>
+    <file name="form-u1597.php" crc="4159791235" ref="index"/>
+    <file name="form-u1566.php" crc="3969060826" ref="index"/>
+    <file name="form-u1641.php" crc="403380089" ref="index"/>
+    <file name="form-u1888.php" crc="27184070" ref="index"/>
+    <file name="form-u1855.php" crc="241516395" ref="index"/>
+    <file name="form-u1802.php" crc="4239147997" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="0-tovar6.png" crc="3997293614" ref="index"/>
+    <file name="020.svg" crc="4079891428" ref="index"/>
+    <file name="020_poster_u209.png" crc="333833387" ref="index"/>
+    <file name="вставленные-svg-93857x114.svg" crc="389365795" seo="true" ref="index"/>
+    <file name="logo-u1512-fr.png" crc="4251315096" ref="index"/>
+    <file name="0-tovar-u1754-fr.png" crc="161929466" ref="index"/>
+    <file name="logo-u1753-fr.png" crc="475980389" ref="index"/>
+    <file name="arrow2w.png" crc="323185388" ref="index"/>
+    <file name="arrow1w.png" crc="4034096410" ref="index"/>
+    <file name="вставленные-svg-140784x114.svg" crc="4146492718" seo="true" ref="index"/>
+    <file name="вставленные svg 140784x114_poster_.png" crc="4180042030" ref="index"/>
+    <file name="вставленные-svg-125223x125.svg" crc="27940577" seo="true" ref="index"/>
+    <file name="вставленные svg 125223x125_poster_.png" crc="4097144866" ref="index"/>
+    <file name="вставленные-svg-12514x109.svg" crc="4074163366" seo="true" ref="index"/>
+    <file name="вставленные svg 12514x109_poster_.png" crc="4011570842" ref="index"/>
+    <file name="вставленные-svg-126283x96.svg" crc="3890532693" seo="true" ref="index"/>
+    <file name="вставленные svg 126283x96_poster_.png" crc="27882023" ref="index"/>
+    <file name="вставленные-svg-135571x114.svg" crc="493745269" seo="true" ref="index"/>
+    <file name="вставленные svg 135571x114_poster_.png" crc="283017697" ref="index"/>
+    <file name="testimonials.png" crc="3914675368" ref="index"/>
+    <file name="вставленные-svg-612001x464.svg" crc="359043751" seo="true" ref="index"/>
+    <file name="вставленные svg 612001x464_poster_.png" crc="3909858279" ref="index"/>
+    <file name="вставленные-svg-286.svg" crc="3775252586" seo="true" ref="index"/>
+    <file name="вставленные svg 286_poster_.png" crc="4255203640" ref="index"/>
+    <file name="icons2.svg" crc="3773190141" ref="index"/>
+    <file name="icons2_poster_u2789.png" crc="509155862" ref="index"/>
+    <file name="вставленные-svg-146x114.svg" crc="531309216" seo="true" ref="index"/>
+    <file name="вставленные svg 146x114_poster_.png" crc="4183341224" ref="index"/>
+    <file name="вставленные-svg-11471x114.svg" crc="366434712" seo="true" ref="index"/>
+    <file name="вставленные svg 11471x114_poster_.png" crc="416724839" ref="index"/>
+    <file name="вставленные-svg-83428x125.svg" crc="4208945279" seo="true" ref="index"/>
+    <file name="вставленные svg 83428x125_poster_.png" crc="384380713" ref="index"/>
+  </folder>
+  <file name="index.html" crc="168290157" seo="true" mt="1478794568186" redirect="true"/>
+</manifest>
