@@ -4,13 +4,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../../lesson5/style/bootstrap.css">
+  <!-- <link rel="stylesheet" href="../../lesson5/style/bootstrap.css"> -->
   <link rel="stylesheet" href="./css/test.css">
   <title>Document</title>
 </head>
 <body>
-    <form name="forms"  method="get">
-        <input type="text" name="name" value="">
+    <form id="f_forms" name="forms" action="" method="post" autocomplete="on" enctype="application/x-www-form-urlencoded">
+        <fieldset class="fldset" name="form_fieldset">
+            <div class="row">
+                <div class="lbl col-xs-12 col-md-3"><label for="id_tname">TName</label></div>
+                <div class="inpt col-xs-12 col-md-3"><input id="id_tname" type="text" name="tname" value="OK" placeholder="TextField" form="f_forms"></div>
+            </div>
+            <div class="row">
+                <div class="lbl col-xs-12 col-md-3"><label for="id_nname">NName</label></div>
+                <div class="inpt col-xs-12 col-md-3"><input id="id_nname" type="number" name="nname" value="" placeholder="NumberField" form="f_forms" min="4" max="100" step="2" required></div>
+            </div>
+            <div class="row">
+                <div class="lbl col-xs-12 col-md-3"><label for="id_pwdname">PWDName</label></div>
+                <div class="inpt col-xs-12 col-md-3"><input id="id_pwdname" type="password" name="pwdname" value="" placeholder="PWDField" form="f_forms"></div>
+            </div>
+            <div class="row">
+                <div class="lbl col-xs-12 col-md-3"><label for="id_ename">EName</label></div>
+                <div class="inpt col-xs-12 col-md-3"><input id="id_ename" type="email" name="ename" value="" placeholder="EmailField" form="f_forms"></div>
+            </div>
+            <div class="row">
+                <div class="lbl col-xs-12 col-md-3"><label for="id_tareaname">EName</label></div>
+                <div class="inpt col-xs-12 col-md-3"><textarea id="id_tareaname" name="tareaname" value="" placeholder="TextArea" rows="5" cols="30" form="f_forms"></textarea></div>
+            </div>
+            <div class="row">
+                <div class="lbl col-xs-3 col-md-3"><label for="id_cbname">CBName</label></div>
+                <div class="inpt col-xs-9 col-md-9"><input id="id_cbname" type="checkbox" name="cbname" value="cbval1" form="f_forms"></div>
+                <div class="lbl col-xs-3 col-md-3"><label for="id_cbname2">CBName2</label></div>
+                <div class="inpt col-xs-9 col-md-9"><input id="id_cbname2" type="checkbox" name="cbname2" value="cbval2" form="f_forms"></div>
+                <div class="lbl col-xs-3 col-md-3"><label for="id_cbname3">CBName3</label></div>
+                <div class="inpt col-xs-9 col-md-9"><input id="id_cbname3" type="checkbox" name="cbname3" value="cbval3" form="f_forms" checked></div>
+            </div>
+            <div class="row">
+                <div class="lbl col-xs-3 col-md-3"><label for="id_rbname">RBName</label></div>
+                <div class="inpt col-xs-9 col-md-9"><input id="id_rbname" type="radio" name="rbname" value="rbval1" form="f_forms"></div>
+                <div class="lbl col-xs-3 col-md-3"><label for="id_rbname2">RBName2</label></div>
+                <div class="inpt col-xs-9 col-md-9"><input id="id_rbname2" type="radio" name="rbname" value="rbval2" form="f_forms" checked></div>
+                <div class="lbl col-xs-3 col-md-3"><label for="id_rbname3">RBName3</label></div>
+                <div class="inpt col-xs-9 col-md-9"><input id="id_rbname3" type="radio" name="rbname" value="rbval3" form="f_forms"></div>
+            </div>
+            <div class="row">
+                <div class="lbl col-xs-12 col-md-3"><label for="id_select">SelName</label></div>
+                <div class="inpt col-xs-12 col-md-9"><select id="id_select" name="selname">
+                    <option value="opt1">Internet Explorer</option>
+                    <option value="opt2">Firefox</option>
+                    <option value="opt3" selected>Chrome</option>
+                </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="lbl col-xs-12 col-md-3"><label for="id_lsname">LSName</label></div>
+                <div class="inpt col-xs-12 col-md-9"><input id="id_lsname" list="browsers"></div>
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            </div>
+            <input id="id_ename" type="submit" value="Отправить" form="f_forms">
+        </fieldset>
     </form>
 </body>
 </html>
